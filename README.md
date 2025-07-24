@@ -1,32 +1,65 @@
 # 🧼 CleanMySpace
 
-**CleanMySpace** est une application web conçue pour aider les foyers, colocataires, couples ou utilisateurs solo à **gérer et répartir les tâches ménagères de manière collaborative**.  
+**CleanMySpace** est une application web destinée à aider les utilisateurs à organiser les tâches ménagères au sein d’un foyer (couple, colocataires ou en solo).  
+Elle permet d’assigner, suivre et répartir les tâches de manière simple et collaborative.
 
-L'objectif : créer un environnement propre et harmonieux sans disputes, en simplifiant l'organisation du quotidien.
+---
 
+## 🚀 Objectif du projet
 
+- Créer un outil pour organiser les corvées à la maison
+- Montrer mes compétences full-stack (frontend, backend, BDD, DevOps)
+- Apprendre FastAPI, renforcer React, structurer un projet professionnel
 
-## 🎯 Objectifs du projet
-
-- Offrir un outil simple pour s’organiser au sein d’un foyer
-- Apprendre et démontrer mes compétences en développement web complet
-- Appliquer les bonnes pratiques de conception, sécurité, tests et DevOps
-
-
+---
 
 ## 🧰 Stack technique
 
-| Côté         | Technologies principales                        |
-|--------------|--------------------------------------------------|
-| **Frontend** | React, Vite, TailwindCSS                        |
-| **Backend**  | FastAPI, Pydantic, SQLAlchemy                   |
-| **Base de données** | PostgreSQL                               |
-| **Auth**     | JWT avec durée d’expiration                     |
-| **Tests**    | Pytest (backend), Vitest ou Playwright (frontend)|
-| **DevOps**   | Docker, Docker Compose, GitHub Actions (CI/CD)  |
-| **Outils**   | Notion, Figma, Trello (planification & maquettes)|
+| Partie        | Technologie utilisée        |
+|---------------|-----------------------------|
+| Frontend      | React + Vite + Tailwind CSS |
+| Backend       | FastAPI + Pydantic + SQLAlchemy |
+| Base de données | PostgreSQL               |
+| Authentification | JWT (Token sécurisé)    |
+| Conteneurisation | Docker + Docker Compose |
+| Déploiement / DevOps | GitHub Actions (CI/CD à venir) |
 
+---
 
+## 📁 Structure du projet
 
-## 🧱 Architecture du projet
+```
+cleanmyspace/
+├── frontend/             # Interface utilisateur (React)
+├── backend/              # API (FastAPI)
+├── docker-compose.yml    # Orchestration des services
+├── .env.example          # Fichier d'exemple d'environnement
+└── README.md             # Documentation
+```
 
+---
+
+## ▶️ Instructions de lancement rapide
+
+1. **Cloner le projet**  
+```bash
+git clone https://github.com/votre-utilisateur/cleanmyspace.git
+cd cleanmyspace
+```
+
+2. **Configurer les variables d’environnement**  
+Créer un fichier `.env` dans le dossier `backend/` basé sur `.env.example`.
+
+3. **Lancer le projet avec Docker**  
+```bash
+docker-compose up --build
+```
+
+- Frontend disponible sur : http://localhost:5173  
+- Backend (API docs) sur : http://localhost:8000/docs
+
+---
+
+## 📄 Licence
+
+Projet personnel sous licence MIT.
