@@ -4,7 +4,7 @@
 
 L'objectif : créer un environnement propre et harmonieux sans disputes, en simplifiant l'organisation du quotidien.
 
----
+
 
 ## 🎯 Objectifs du projet
 
@@ -12,7 +12,7 @@ L'objectif : créer un environnement propre et harmonieux sans disputes, en simp
 - Apprendre et démontrer mes compétences en développement web complet
 - Appliquer les bonnes pratiques de conception, sécurité, tests et DevOps
 
----
+
 
 ## 🧰 Stack technique
 
@@ -26,7 +26,7 @@ L'objectif : créer un environnement propre et harmonieux sans disputes, en simp
 | **DevOps**   | Docker, Docker Compose, GitHub Actions (CI/CD)  |
 | **Outils**   | Notion, Figma, Trello (planification & maquettes)|
 
----
+
 
 ## 🧱 Architecture du projet
 
