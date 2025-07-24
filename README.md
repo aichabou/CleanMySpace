@@ -3,7 +3,7 @@
 **CleanMySpace** est une application web destinée à aider les utilisateurs à organiser les tâches ménagères au sein d’un foyer (couple, colocataires ou en solo).  
 Elle permet d’assigner, suivre et répartir les tâches de manière simple et collaborative.
 
----
+
 
 ## 🚀 Objectif du projet
 
@@ -11,7 +11,7 @@ Elle permet d’assigner, suivre et répartir les tâches de manière simple et 
 - Montrer mes compétences full-stack (frontend, backend, BDD, DevOps)
 - Apprendre FastAPI, renforcer React, structurer un projet professionnel
 
----
+
 
 ## 🧰 Stack technique
 
@@ -24,7 +24,7 @@ Elle permet d’assigner, suivre et répartir les tâches de manière simple et 
 | Conteneurisation | Docker + Docker Compose |
 | Déploiement / DevOps | GitHub Actions (CI/CD à venir) |
 
----
+
 
 ## 📁 Structure du projet
 
@@ -37,7 +37,7 @@ cleanmyspace/
 └── README.md             # Documentation
 ```
 
----
+
 
 ## ▶️ Instructions de lancement rapide
 
@@ -58,7 +58,7 @@ docker-compose up --build
 - Frontend disponible sur : http://localhost:5173  
 - Backend (API docs) sur : http://localhost:8000/docs
 
----
+
 
 ## 📄 Licence
 
