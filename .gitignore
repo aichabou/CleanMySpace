@@ -1,0 +1,16 @@
+# Frontend (React)
+node_modules/
+dist/
+
+# Backend (FastAPI/Python)
+env/
+.venv/
+__pycache__/
+*.pyc
+
+# Global
+.env
+.env.*
+
+# macOS
+.DS_Store
