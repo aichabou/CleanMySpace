@@ -1,7 +1,18 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+from app.models.user import Base
+from app.database import Base, engine
+from app.schemas.user import UserCreate
+from app.services.user_service import create_user
 
 app = FastAPI()
+
+# Crée les tables
+Base.metadata.create_all(bind=engine)
+
+@app.post("/auth/register")
+def register(user: UserCreate):
+    return create_user(user)
 
 # Autoriser les origines spécifiques
 origins = [
